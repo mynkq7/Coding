@@ -33,7 +33,6 @@ Day 04 focuses on essential looping techniques for iterating through lists and s
 - ✔ **Filtering Logic**  
   Applied membership checks to remove unwanted characters during iteration.
 
-These concepts are widely applied in cybersecurity scripting — such as automating payload loops, filtering character sets, or iterating through wordlists and encoded strings.
 
 ## Run
 
