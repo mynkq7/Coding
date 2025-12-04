@@ -1,5 +1,5 @@
 # Mixing Colors — simple style (no functions)
-# Author: Mayank
+# Author: Mynkq7
 # Day 03 mini-project
 
 # Asking Inputs (normalize to lowercase and strip spaces)
