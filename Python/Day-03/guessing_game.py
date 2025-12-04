@@ -1,6 +1,6 @@
 """
 Guessing Game — Day 03 Mini Project
-Author: Mayank
+Author: Mynkq7
 Date: 2025
 
 Description:
