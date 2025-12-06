@@ -12,10 +12,8 @@ Topics Covered:
 - Looping through strings
 """
 
-# -------------------------
-# Basic Logical Statement
-# -------------------------
 
+# Basic Logical Statement
 condition = 5 > 4  # Always true
 
 if condition:
@@ -23,10 +21,7 @@ if condition:
 
 print("So how are you?")
 
-# -------------------------
 # If / Elif / Else
-# -------------------------
-
 temperature = 40
 
 if temperature > 30:
@@ -40,10 +35,7 @@ elif temperature > 0:
 else:
     print("It's freezing outside")
 
-# -------------------------
 # Logical Operators
-# -------------------------
-
 x = 100
 y = 50
 c = 200
@@ -51,10 +43,7 @@ c = 200
 if y < x and c > x:
     print("Yes, y is smaller than x but x is smaller than c")
 
-# -------------------------
 # Membership Operators
-# -------------------------
-
 words = ["wood", "tree", "car", "truck"]
 
 if "wood" not in words:
@@ -62,19 +51,13 @@ if "wood" not in words:
 elif "wood" in words:
     print("Wood is present in the list")
 
-# -------------------------
 # For Loops
-# -------------------------
-
 container = [1,2,3,4,5,6,7,8,9,10]
 
 for number in container:
     print(number)
 
-# -------------------------
 # Iterating Over a List
-# -------------------------
-
 list_of_colors = [
     "orange", "green", "blue", "red",
     "black", "white", "purple", "yellow"
@@ -83,10 +66,7 @@ list_of_colors = [
 for color in list_of_colors:
     print(f"Here is your color: {color}")
 
-# -------------------------
 # Looping Through a String
-# -------------------------
-
 text = "Im a hacker"
 
 for character in text:
