@@ -13,9 +13,7 @@ Topics Covered:
 - Arithmetic & Comparison operators
 """
 
-# -------------------------
 # Tuples (Immutable Ordered Collection)
-# -------------------------
 
 empty_tuple = ()  # empty tuple
 list_data = [0,1,2,3,4,5,6,7,8,9, 1,2,3,4,5,6,7,8,9]  # lists are mutable
@@ -47,10 +45,8 @@ print(sorted(data))
 print(data.count(4))
 print(data.count(8))
 
-# -------------------------
-# Sets (Unordered, Unique Items)
-# -------------------------
 
+# Sets (Unordered, Unique Items)
 sett = {"A", "A", "B", "B", "C", "C", "D", "D"}
 print(sett)  # duplicates are removed automatically
 
@@ -71,12 +67,8 @@ print(A.symmetric_difference(B))
 print(A.issubset(B))
 print(A.issuperset(B))
 
-# -------------------------
 # Dictionaries (Key → Value, Mutable)
-# -------------------------
-
 empty_dictionary = {}
-
 items = {
     'name': 'mayank',
     'age': '21',
@@ -114,10 +106,7 @@ print(list(items.keys()))
 print(list(items.values()))
 print(items.pop('name'))
 
-# -------------------------
 # Basic Operators
-# -------------------------
-
 x = 10
 y = 20
 total = x + y
@@ -125,10 +114,8 @@ total = x + y
 print(total)
 print(x + y)
 
-# -------------------------
-# String Operations
-# -------------------------
 
+# String Operations
 a = "Hello"
 b = "world"
 
@@ -141,20 +128,14 @@ print("The combined string is:", combined)
 # Multiplying strings
 print("Hello\n" * 5)
 
-# -------------------------
 # Membership Operators
-# -------------------------
-
 sentence = "so we are going to hit some pushups"
 
 print("slap some pushups" in sentence)
 print("hit some pushups" not in sentence)
 print("hit some pushups" in sentence)
 
-# -------------------------
 # Equality Operators
-# -------------------------
-
 s_1 = "this is a cat"
 s_2 = "this is a cat"
 s_3 = "this is a rat"
@@ -163,10 +144,7 @@ print(s_1 == s_2)
 print(s_1 == s_3)
 print(s_1 != s_3)
 
-# -------------------------
 # Arithmetic Operators
-# -------------------------
-
 n_1 = 2
 n_2 = 4
 
@@ -178,10 +156,7 @@ print("n_1 // n_2:", n_1 // n_2)
 print("n_1 % n_2:", n_1 % n_2)
 print("n_1 ** n_2:", n_1 ** n_2)
 
-# -------------------------
 # Comparison Operators
-# -------------------------
-
 print("n_1 > n_2:", n_1 > n_2)
 print("n_1 < n_2:", n_1 < n_2)
 print("n_1 == n_2:", n_1 == n_2)
