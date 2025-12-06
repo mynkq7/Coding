@@ -14,9 +14,7 @@ Topics Covered:
 - Lists & list operations
 """
 
-# -------------------------
 # Variables and Values
-# -------------------------
 variable_1 = "First Variable"
 variable_2 = "Second Variable"
 variable_3 = "Third Variable"
@@ -28,18 +26,14 @@ print(variable_2)
 print(variable_3)
 print(variable_4)
 
-# -------------------------
 # f-Strings (Formatted Strings)
-# -------------------------
 print("Here are our variables:")
 print(f"This is our {variable_1}")
 print(f"This is our {variable_2}")
 print(f"This is our {variable_3}")
 print(f"This is our {variable_4}")
 
-# -------------------------
 # Data Types
-# -------------------------
 string_example = "This is our string"
 integer_example = 9
 float_example = 3.15
@@ -53,18 +47,14 @@ print(type(float_example))
 print(type(boolean_example))
 print(type(none_example))
 
-# -------------------------
 # Type Conversion
-# -------------------------
 integer_to_string = str(integer_example)
 float_to_string = str(float_example)
 
 print(integer_to_string)
 print(float_to_string)
 
-# -------------------------
 # Inputs and Data Operations
-# -------------------------
 toffee = input("Enter how many toffees you have: ")
 toffee_friend = input("Enter how many toffees your friend has: ")
 
@@ -74,9 +64,7 @@ total = num_1 + num_2
 
 print(f"You both have {total} toffees in total.")
 
-# -------------------------
 # Lists
-# -------------------------
 fruits = ["apple", "mango", "banana", "papaya"]
 
 # Accessing elements by index
@@ -96,7 +84,6 @@ fruits.append("avocado")
 fruits.append("strawberry")
 fruits.append("litchi")
 fruits.append("guava")
-
 fruits.remove("apple")
 
 print(fruits)
