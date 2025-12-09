@@ -1,3 +1,9 @@
+"""
+Day 06 — File Handling & OS Module  
+Author: Mynkq7  
+Date: 2025
+"""
+
 import os
 
 # Flags
@@ -68,7 +74,6 @@ f.close()
 # Reading the overwritten file
 f = open("context.txt")
 print(f.read())
-# Closing the file 
 
 # Open a file for writing and create it if it does not exist
 f = open("nex-file.txt", "w")
