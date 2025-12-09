@@ -1,3 +1,19 @@
+"""
+Day 05 — While Loops & Functions
+Author: Mynkq7
+Date: 2025
+
+Topics Covered:
+- While loops
+- Input validation
+- Loop conditions
+- Using 'not' in loops
+- Basic functions
+- Return statements
+- Arithmetic functions
+- String formatting (capitalize)
+"""
+
 # While loops = execute some code while a condition is true 
 # Asking user for name
 name = input("Enter your name:") 
@@ -7,28 +23,27 @@ while name == "":
     print("you did not enter your name")
 # Ask for the name again
     name = input("Enter your name:") 
- # If the ccondition is false, we exit the loop and print the name
+ # If the condition is false, we exit the loop and print the name
 print(f"Hello {name}")
 
 # Asking users for age
 age = int(input("Enter your age:")) 
 # While age is less than 0
-while age <0: 
+while age < 0: 
 # Print this message    
     print("The age cannot be negative") 
 # Ask for the user input again 
     age = int(input("Enter your age:")) 
-# If the confition is false, we exit the loop and print the age 
+# If the condition is false, we exit the loop and print the age 
 print(f"you are {age} years old")
 
-# Asking users to enter their favorite food c  num = int(input("Enter a number between 1 and 10:"))
-
+# Asking users to enter their favorite food 
 food = input("Enter your favourite food (press 'q) to quit:")
 # While the food is not equal to q
 while not food == 'q': 
 # Print this message
     print(f"your favourite food is {food}") 
-# Askingusers to enter food again
+# Asking users to enter food again
     food = input("Enter your favourite food again (press 'q) to quit:")
 # If the condition is false, we exit the loop and print the message 
 print("you have exited the loop")
@@ -39,12 +54,12 @@ num = int(input("Enter a number between 1 and 10:"))
 while num < 1 or num > 10: 
 # Print this message
    print("The entered number is invalid")
-#    Asking users to enter the number between 1 and 10 again
+# Asking users to enter the number between 1 and 10 again
    num = int(input("Enter a number between 1 and 10:"))
 # If the condition is false, we exit the loop and print the number 
 print(f"your entered number is {num}")  
 
-# Funtions
+# Functions
 # Defining a function to say happy birthday which is happy_birthday
 def happy_birthday(name, age):
 # Printing the birthday messages
@@ -53,29 +68,29 @@ def happy_birthday(name, age):
     print(f"happy birthday dear {name}")
     print(f"happy birthday to you")
     print(f"You are now {age} years old!")
- # Calling the function
+# Calling the function
 happy_birthday("Alice","21")
 
-# Defining a function to generate inovice which is generate_invoice
+# Defining a function to generate invoice which is generate_invoice
 def generate_invoice(Customer_name, amount, date):
  # Printing the invoice details
      print(f"Hello {Customer_name}")
      print(f"Your invoice amout is ${amount}")
      print(f"The due date is on {date}")
- #  Calling the function
+# Calling the function
 generate_invoice("bob", "240", 202409-30)
 
-# Retrun statement
+# Return statements
 # Defining a function to calculate the two numbers named add
 def add(x,y):
-# Adding the two number x and y
+# Adding the two numbers x and y
    z = x+y
-# Retruing the result to z variable
+# Returning the result to z variable
    return z 
 
-# Defining a functon to subtract the two numbers named sub
+# Defining a function to subtract the two numbers named sub
 def sub(x,y):
- # Subtracting two numbers x and 
+ # Subtracting two numbers x and y
     z = x-y
  # Returning the results to z variable
     return z 
@@ -84,15 +99,16 @@ def sub(x,y):
 def mul(x,y):
 # Multiplying the two numbers x and y
     z = x*y
-#    Returing the results to z variable
+# Returning the results to z variable
     return z 
 
 # Defining a function to divide the two numbers named div 
 def div(x,y):
- # Diving the two numbers x and y
+ # Dividing the two numbers x and y
     z = x/y
 # Returning the results to z variable
     return z
+
 # Printing the results of the functions 
 print(add(10,5))
 print(sub(10,5))
@@ -105,5 +121,6 @@ def create_name (first_name, last_name):
     last_name = last_name.capitalize()
     full_name = f"{first_name} {last_name}"
     return full_name
+
 # Printing the results of the function create_name 
 print(create_name("mayank","naithani"))
