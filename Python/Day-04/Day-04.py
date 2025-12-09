@@ -1,3 +1,17 @@
+"""
+Day 04 — Looping, Iteration & Skipping Values
+Author: Mynkq7
+Date: 2025
+
+Topics Covered:
+- For loops
+- Iterating over lists
+- Iterating over strings
+- Skipping values using continue
+- Filtering alphabets
+- Membership checks
+"""
+
 # Print numbers
 number_list = [1,2,3,4,5,6,7,8,9,10]
 for num in number_list:
@@ -11,10 +25,11 @@ for words in word_list:
 # Skip a single letter
 Alphabets = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 for letter in Alphabets:
-    if letter =="M":
-     print("Removing letter M")
-     continue
-    print(f'Here is your Alphabet: {letter}')
+    if letter == "M":
+        print("Removing letter M")
+        continue
+    print(f"Here is your Alphabet: {letter}")
+
 # Skip multiple letters
 Alphabets_2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 letters_to_skip = "BFJNQ"
@@ -24,4 +39,3 @@ for newwords in Alphabets_2:
         print(f"Removing unwanted letter: {newwords}")
         continue
     print(f"Here is your Letter {newwords}")
-#
