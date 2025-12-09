@@ -1,4 +1,4 @@
-# Day 06 — File Handling & OS Operations
+# File Handling & OS Operations
 
 ## Topics Covered
 
