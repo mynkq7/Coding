@@ -1,5 +1,5 @@
 """
-Day 06 — File Handling & OS Module  
+File Handling & OS Module  
 Author: Mynkq7  
 Date: 2025
 """
