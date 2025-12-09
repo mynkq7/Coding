@@ -43,4 +43,4 @@ Used `if` conditions and `continue` to remove unnecessary characters during iter
 To execute Day 04:
 
 ```bash
-python3 day-04.py
+python3 Day-04.py
