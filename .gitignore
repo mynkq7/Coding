@@ -1,20 +1,102 @@
+# =========================
 # Python
+# =========================
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
+*.so
 
-# Virtual envs
+# Virtual environments
 venv/
-.env/
+env/
+.venv/
+.virtualenv/
 
-# Editor
-.vscode/
+# =========================
+# Python tooling
+# =========================
+.pytest_cache/
+.mypy_cache/
+.pytype/
+coverage.xml
+htmlcov/
+.tox/
+.cache/
+
+# =========================
+# Logs & temporary files
+# =========================
+*.log
+*.tmp
+*.temp
 *.swp
+*.swo
 
-# System
+# =========================
+# OS / Editor files
+# =========================
 .DS_Store
 Thumbs.db
+*.bak
+*.old
+*.orig
 
-# Logs
-*.log
+# Linux
+*~
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Database / SQL
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+*.sqlitedb
+*.dump
+
+# =========================
+# Secrets (IMPORTANT)
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+secrets.*
+credentials.*
+config.local.*
+
+# =========================
+# Build / dist
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Cybersecurity / Automation
+# =========================
+wordlists/
+outputs/
+scans/
+results/
+reports/
+screenshots/
+captures/
+
+# =========================
+# Misc
+# =========================
+*.zip
+*.tar.gz
+*.7z
+*.rar
