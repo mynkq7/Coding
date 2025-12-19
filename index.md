@@ -1,19 +1,36 @@
+# Learning Index
+
+This index acts as a central navigation point for all topics in this repository.
 
 ---
 
-#  **2. ROOT — index.md**
-Create/replace with:
+## 🐍 Python
 
-```markdown
-# Python Learning Index
+- Day 01 — Basics  
+- Day 02 — Data Structures  
+- Day 03 — Conditionals & Loops  
+- Day 04 — Loop Control  
+- Day 05 — While Loops & Functions  
+- Day 06 — File Handling & OS Operations  
 
-This index helps Google and users navigate all Python topics.
+---
 
-## Quick Links  
-- [Day 01 – Basics](Python/Day-01/README.md)
-- [Day 02 – Conditionals](Python/Day-02/README.md)
-- [Day 03 – Loops & Mini Projects](Python/Day-03/README.md)
-- [Docs](../docs/README.md)
+## 🗄 SQL
 
-## Keywords  
-python daily logs, python documentation, python code index, python examples list
+- Day 01 — SQL Fundamentals  
+
+---
+
+## 🔮 Future Topics
+
+- Advanced SQL
+- Automation Scripts
+- Networking Basics
+- Cybersecurity & Pentesting
+- System Programming
+
+---
+
+## 🔎 Keywords
+
+learning repository, coding practice, python learning, sql basics, programming logs
