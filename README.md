@@ -37,3 +37,36 @@ This repository is designed to **scale over time** as new technologies and topic
 ├── index.md
 ├── CONTRIBUTING.md
 └── LICENSE
+
+> Folder names may grow over time as new domains are added.
+
+---
+
+## How to Navigate
+
+- Use **`index.md`** for a quick overview of all topics
+- Each folder contains its own README or notes
+- Files are intentionally kept simple and readable
+
+---
+
+## Learning Philosophy
+
+- Fundamentals first
+- No shortcuts, no copy-paste learning
+- Write code → break it → understand it
+- Treat learning like building blocks, not checklists
+
+---
+
+## Disclaimer
+
+This repository reflects **learning and experimentation**.  
+Code may be simple, repetitive, or intentionally verbose for clarity.
+
+---
+
+## 📜 License
+
+This project is licensed under the terms of the **MIT License**.  
+See the [LICENSE](LICENSE) file for details.
