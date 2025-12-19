@@ -24,4 +24,16 @@ This repository is designed to **scale over time** as new technologies and topic
 ---
 
 ## 📁 Repository Structure
-
+.
+├── Python/
+│ ├── Day-01/
+│ ├── Day-02/
+│ ├── Day-03/
+│ └── ...
+├── SQL/
+│ ├── Day-01.sql
+│ └── ...
+├── README.md
+├── index.md
+├── CONTRIBUTING.md
+└── LICENSE
