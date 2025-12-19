@@ -23,20 +23,24 @@ This repository is designed to **scale over time** as new technologies and topic
 ---
 
 ## 📁 Repository Structure
+
+```text
 .
 ├── Python/
-│ ├── Day-01/
-│ ├── Day-02/
-│ ├── Day-03/
-│ └── ...
+│   ├── Day-01/
+│   ├── Day-02/
+│   ├── Day-03/
+│   └── ...
 ├── SQL/
-│ ├── Day-01.sql
-│ └── ...
+│   ├── Day-01.sql
+│   └── ...
 ├── README.md
 ├── index.md
 ├── CONTRIBUTING.md
 └── LICENSE
+```
 
+> Folder names may grow over time as new domains are added.
 > Folder names may grow over time as new domains are added.
 
 ---
