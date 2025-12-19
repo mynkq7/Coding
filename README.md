@@ -66,7 +66,7 @@ Code may be simple, repetitive, or intentionally verbose for clarity.
 
 ---
 
-## 📜 License
+##  License
 
 This project is licensed under the terms of the **MIT License**.  
 See the [LICENSE](LICENSE) file for details.
