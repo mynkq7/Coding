@@ -4,7 +4,7 @@ This index acts as a central navigation point for all topics in this repository.
 
 ---
 
-## 🐍 Python
+## Python
 
 - Day 01 — Basics  
 - Day 02 — Data Structures  
@@ -15,22 +15,18 @@ This index acts as a central navigation point for all topics in this repository.
 
 ---
 
-## 🗄 SQL
+## SQL
 
 - Day 01 — SQL Fundamentals  
 
 ---
 
-## 🔮 Future Topics
+## Future Topics
 
-- Advanced SQL
-- Automation Scripts
-- Networking Basics
-- Cybersecurity & Pentesting
-- System Programming
+- Javascript
 
 ---
 
-## 🔎 Keywords
+## Keywords
 
 learning repository, coding practice, python learning, sql basics, programming logs
