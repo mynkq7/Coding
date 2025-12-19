@@ -23,7 +23,7 @@ This index acts as a central navigation point for all topics in this repository.
 
 ## Future Topics
 
-- Javascript
+- Bash
 
 ---
 
