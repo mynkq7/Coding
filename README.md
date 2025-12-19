@@ -14,7 +14,7 @@ This repository is designed to **scale over time** as new technologies and topic
 
 ---
 
-## 📌 Purpose
+## Purpose
 
 - Track daily learning with code
 - Build strong fundamentals before advanced topics
