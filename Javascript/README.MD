@@ -32,4 +32,4 @@ These basics are essential for web development, scripting, and building interact
 
 ## How to Run
 ```bash
-node day-01.js
+node day-1.js
