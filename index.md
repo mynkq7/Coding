@@ -17,5 +17,5 @@
 ## C
 - Day 01 — Basics  
 
-## Future
-- Bash
+## Bash
+- Day-1.sh
