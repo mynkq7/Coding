@@ -34,4 +34,4 @@ These commands form the foundation for working efficiently in Linux environments
 
 ## How to Run
 ```bash
-bash day-01.sh
+bash day-1.sh
