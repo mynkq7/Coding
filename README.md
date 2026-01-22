@@ -25,7 +25,7 @@ A structured learning repository for programming, databases, and system fundamen
 ├── CONTRIBUTING.md
 └── LICENSE
 
-## Usage
+```## Usage
 
 - Refer to `index.md` for topic overview
 - Each folder contains practice code and notes
