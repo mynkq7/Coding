@@ -11,11 +11,11 @@ console.log("is Indian:", isindian);
 // Data Types
 let String = "Hello, World!";
 let Number = 42;
-let Boolean = "False";
+let Boolean = false;
 let undefined;
 let Null = null;
-let Object = { firstname: "John", lastname: "Doe"};
-let Array = [1,2,3,4,5,6,7];
+let Object = { name: "example" };
+let Array = [1, 2, 3];
 // Displaying Data Types
 console.log("String:", String);
 console.log("Number:", Number);
